@@ -77,6 +77,37 @@ const Home = () => {
       </section>
 
       <CallToAction data={callToAction} />
+
+
+
+      <section className="section bg-muted py-12">
+  <div className="container text-center">
+    <h2 className="text-3xl font-bold mb-8">Our Promise to You 🌸</h2>
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="p-6 rounded-lg shadow-md">
+        <h3 className="text-xl font-semibold mb-2">Love It or Return It 💖</h3>
+        <p className="text-muted-foreground">
+          We stand by every bouquet. If you’re not completely in love within 30 days, we’ll make it right—no questions, no hassle.
+        </p>
+      </div>
+      <div className="p-6 rounded-lg shadow-md">
+        <h3 className="text-xl font-semibold mb-2">Stress-Free Returns 🔄</h3>
+        <p className="text-muted-foreground">
+          Changed your mind? No worries. Reach out within 14 days, and our team will walk you through a quick and easy return process.
+        </p>
+      </div>
+      <div className="p-6 rounded-lg shadow-md">
+        <h3 className="text-xl font-semibold mb-2">Speedy, Secure Delivery 🚚</h3>
+        <p className="text-muted-foreground">
+          Get your flowers fresh and fast. Every order ships with tracking and care, so your blooms arrive perfect and on time.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
     </>
   );
 };
